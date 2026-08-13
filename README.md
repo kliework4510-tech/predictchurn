@@ -56,11 +56,3 @@ GPU: CUDA対応
 - Outer: StratifiedKFold 20-fold
 - Inner: StratifiedKFold 5-fold（Target Encodingのリーク防止）
 
-## 出力
-
-| ファイル | 内容 |
-|---------|------|
-| `submission_v2.csv` | Kaggle提出用 |
-| `oof_predictions_v2.csv` | OOF予測値 |
-| `model_evaluation_v2.png` | ROC / OOF分布 / PR曲線 |
-| `feature_importance_v2.png` | 特徴量重要度（Top20） |
